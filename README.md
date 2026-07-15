@@ -4,7 +4,7 @@ Production AI products, end-to-end: LLM agents & chatbots, RAG, realtime voice A
 API/CRM integrations, Python data pipelines, and full-stack web on Next.js / React.
 Founder of **Ahrim AI Lab**.
 
-🌐 **Live demo & portfolio:** [ahrim-ai-lab.ru](https://ahrim-ai-lab.ru) · [brokerdesk-ai.com](https://brokerdesk-ai.com)
+🌐 **Live demo & portfolio:** [brokerdesk-ai.com](https://brokerdesk-ai.com)
 💻 **Sanitized code samples:** [`/code-samples`](./code-samples)
 
 > Most of my code lives in **private repositories** (client & product work).
@@ -25,7 +25,7 @@ Full-stack AI platform for real-estate brokerages, built solo (product → infra
 - Production-hardening: migrated OpenAI Realtime beta→GA with zero downtime; routed calls through a Vercel Edge proxy when the host blocked outbound TCP to foreign APIs
 - 💻 Code sample: [`realtime-token-route.ts`](./code-samples/realtime-token-route.ts)
 
-### 🌐 AI voice web app — [ahrim-ai-lab.ru](https://ahrim-ai-lab.ru)
+### 🌐 AI voice web app
 Full-stack marketing site with a **live in-browser voice agent** (talk to the AI right on the page).
 - Next.js 16 / React 19 / TypeScript, server-rendered, SEO-optimized
 - In-browser realtime voice demo (ephemeral-token pattern), rate-limited
@@ -47,17 +47,15 @@ Retrieval-augmented knowledge assistant grounded strictly in a company's own doc
 - Ingestion (documents + video transcribed via Whisper) → chunking → embeddings → vector search
 - Answers grounded in the knowledge base with anti-hallucination guardrails and dialogue memory
 - ~$30–50/month inference vs. a full-time human handling the same first-line load
-- ▶ [Walkthrough (video)](https://www.youtube.com/watch?v=iGUeOoNL1Kk)
 
 ### 🔄 End-to-end sales automation
 - Python scrapers/parsers for lead collection & enrichment (dedup, validation)
 - CRM sync via API (amoCRM / HubSpot)
 - Orchestration in n8n → Telegram alerts + Google Sheets dashboards
-- ▶ [AI in sales funnels (video)](https://www.youtube.com/watch?v=nYJ1lmqRdCY)
 - 💻 Code sample: [`llm_client.py`](./code-samples/llm_client.py)
 
-### 🛒 Marketplace automation (Avito)
-- Autoload feed generation and a management system (Python) for automated listings
+### 🛒 Marketplace automation
+- Autoload feed generation and a management system (Python) for automated classifieds listings
 
 ---
 
